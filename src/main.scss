@@ -1,0 +1,24 @@
+
+// custom variables
+$light: white;
+$success: #bb86fc;
+$dark: #121212;
+$secondary: #2d2d2d;
+
+
+//Spacer variables
+// $spacer: 1rem;
+// $spacers:
+// (
+// 1: ($spacer * 0.5),
+// 2: ($spacer * 1),
+// 3: ($spacer * 1.5),
+// 4: ($spacer * 2),
+// 5: ($spacer * 3),
+// 6: ($spacer * 4)
+// );
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+

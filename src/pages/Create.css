@@ -1,0 +1,11 @@
+.create {
+   max-width: 600px;
+   padding: 50px;
+   padding-top: 200px;
+   text-align: left;
+   height: 100%;
+ }
+ .create p {
+   margin-top: 10px;
+   font-size: 0.8em;
+ }

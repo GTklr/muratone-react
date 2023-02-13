@@ -1,0 +1,34 @@
+.ContactSection{
+   padding-top: 100px;
+   position: absolute; 
+   top: 45%; 
+   left: 50%; 
+   transform: translate(-50%, -50%);
+}
+
+form {
+   margin-bottom: 20px ; 
+   font-size: 1em;
+   font-family:'Chivo Mono', monospace ;
+   color: white;
+   }
+   
+   form input, textarea, #password{
+   width: 100%;
+   height: 50px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   border-width: 2px;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   border-color: #bb86fc ;
+   background-color: RGBA(33,37,41);
+   color: white;
+   }
+
+   @media (max-width:1024px) {
+      .ContactSection{
+         width: 90% !important;
+      }
+   }

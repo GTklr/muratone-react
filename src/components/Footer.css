@@ -1,0 +1,28 @@
+footer{
+    height: 50px;
+    background-color: #121212;
+  }
+  
+  .social-icons {
+    color: rgb(255, 255, 255);
+  }
+  
+  .social-icons:hover {
+    color: #bb86fc;
+  }
+  
+  .infotext{
+    font-size: small;
+    color: white;
+  }
+
+@media (max-width:1024px) {
+  .social-icons-group{
+    justify-content: center !important;
+  }
+  
+  .copyright{
+    display: none !important;
+  }
+  
+}

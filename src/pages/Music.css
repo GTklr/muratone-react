@@ -1,0 +1,56 @@
+#musichero1{
+    background-image:url(/src/Assets/hero12gif.gif);
+    background-position: center; 
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.466);
+    height: 100vh;
+    margin-top: 40px;
+    }
+
+#musichero2{
+    background-image: url(/src/Assets/hero1gif.gif);
+    background-position: center; 
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.466);
+    height: 600px;
+    }
+
+
+.spotifyPlayer{
+    height: 100px;
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.albumArt{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.mixcloudPlayer{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width:1024px) {
+    #musichero1 {
+        margin-top: 50px;
+        padding: 20px;
+        overflow: auto;
+        height:100% !important; 
+        padding-top: 75px !important;
+    }
+
+    #musichero2 {
+        padding: 20px;
+        overflow: auto;
+        height:40vh !important;
+    }
+
+    .indivRelease{
+        margin-top: 20px;
+        ;
+    }
+    .heroDetails{
+        width: 100% !important;
+        padding-top: 50px;
+    }
+  }

@@ -1,0 +1,32 @@
+.navbar {
+    height: 50px;
+    display: flex;
+  }
+  
+  .nav-item {
+    font-size: small;
+    font-weight: bold;
+    color: grey;
+    text-decoration: none;
+    padding-top: 2px;
+  }
+  
+  a.nav-item:hover{
+    color: #bb86fc !important;
+  }
+  
+  .navbar-brand{
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .contact-button {
+    height: 10%;
+  }
+
+  @media (max-width:1024px) {
+    .navbar {
+      height: 80px;
+      display: flex;
+    }
+  }
