@@ -35,7 +35,7 @@ export default function LinkList( {LinkDATA}) {
                      <Accordion.Body className="bg-dark text-white">
                         
                      {sortedLinks.embedd.includes('spotify') && <Spotify wide link={sortedLinks.embedd}/>}
-                     {!sortedLinks.embedd.includes('spotify') && <Iframe url={sortedLinks.embedd} width="100%" height="120" />}
+                     {sortedLinks.embedd.includes('iframe') && <Iframe url={sortedLinks.embedd} width="100%" height="120" />}
                      {sortedLinks.normalLink&& <a className="btn btn-md btn-success purplebtn d-flex align-items-center" href={sortedLinks.normalLink} target="_blank"> VISIT SITE </a>}
                   
                      </Accordion.Body>
