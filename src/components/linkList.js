@@ -22,7 +22,8 @@ export default function LinkList( {LinkDATA}) {
 
   return (
    
-      <div className="link-list bg-dark">
+      <div className="link-list">
+         {!LinkDATA && <p>Links loading!</p>}
         
         {sortedLinks.map(sortedLinks => (
             <div key={sortedLinks.id}>

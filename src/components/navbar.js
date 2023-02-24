@@ -21,7 +21,7 @@ const NavbarOne = () => {
       <Navbar fixed="top" expand="lg" className="navbar navbar-dark bg-dark dark" expanded={expanded}>
       <Container fluid>
         <NavLink to="/" className='navbar-brand' onClick={() => setExpanded(false)}>Muratone</NavLink>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} className="" />
         <Navbar.Collapse className='bg-dark'>
           <Nav className="me-auto">
             <NavLink to="/music" className='nav-item mx-2 py-2' onClick={() => setExpanded(false)}>Music</NavLink>

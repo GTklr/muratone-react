@@ -1,19 +1,35 @@
-#musichero1{
-    background-image:url(/src/Assets/hero12gif.gif);
-    background-position: center; 
-    background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.466);
+.video-background {
+    width: 100%;
     height: 100vh;
-    margin-top: 40px;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
     }
+.video-background2 {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    }
+    
+.video-background video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}    
 
-#musichero2{
-    background-image: url(/src/Assets/hero1gif.gif);
-    background-position: center; 
-    background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.466);
-    height: 600px;
-    }
+.video-background2 video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}    
 
 
 .spotifyPlayer{
@@ -31,19 +47,6 @@
 }
 
 @media (max-width:1024px) {
-    #musichero1 {
-        margin-top: 50px;
-        padding: 20px;
-        overflow: auto;
-        height:100% !important; 
-        padding-top: 75px !important;
-    }
-
-    #musichero2 {
-        padding: 20px;
-        overflow: auto;
-        height:40vh !important;
-    }
 
     .indivRelease{
         margin-top: 20px;
@@ -51,6 +54,18 @@
     }
     .heroDetails{
         width: 100% !important;
-        padding-top: 50px;
+        
     }
+    .video-background {
+        width: 100%;
+        height: fit-content !important;
+        overflow: hidden;
+        transform: translate3d(0,0,0);
+      }
+    .video-background2 {
+        width: 100%;
+        height: 400px !important;
+        overflow: hidden;
+        transform: translate3d(0,0,0);
+      }
   }

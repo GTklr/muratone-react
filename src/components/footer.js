@@ -29,7 +29,7 @@ export default function Footer({reactClick}) {
 
   return(
       <div className="">
-        <footer className="d-flex flex-wrap justify-content-between align-items-center border-top px-3">
+        <footer className="d-flex flex-wrap justify-content-between align-items-center px-3">
           <div className="col-md-4 d-flex align-items-center copyright">
             <span className="mb-3 mb-md-0 infotext"> © 2023 Muratone |  &nbsp;
               <OverlayTrigger trigger="click" placement="top" overlay={popover}>
